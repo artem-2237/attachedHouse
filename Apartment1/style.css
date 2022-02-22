@@ -19,7 +19,7 @@ img {
 .main {
   margin: auto;
   width: 900px;
-  background: url(img/pageTop.png) no-repeat;
+  background: url(img/page-top.png) no-repeat;
   background-position: left top;
   background-size: 33%;
   padding: 100px 60px 15px 60px;
@@ -39,25 +39,93 @@ img {
 }
 .col-2 {
   display: inline-block !important;
-  width: 49.5% !important;
+  width: 50% !important;
+  font-size: 14px;
 }
 .col-3 {
   display: inline-block !important;
   width: 33.3% !important;
-  background-color: red;
   font-size: 14px;
 }
 .col-1-3 {
   display: inline-block !important;
-  width: 30% !important;
+  width: 31% !important;
+  font-size: 14px;
 }
 .col-2-3 {
   display: inline-block !important;
   width: 69% !important;
+  font-size: 14px;
 }
 .col-4 {
   display: inline-block !important;
-  width: 24.5% !important;
+  width: 25% !important;
+  font-size: 14px;
+}
+.horizontal-li {
+  display: inline;
+}
+.horizontal-li::before {
+  content: "";
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #000;
+  margin: 0 3px 2px 0;
+}
+      /* section-title */
+.section-title {
+  position: relative;
+  width: 840px;
+  transform: translateX(-60px);
+  margin-bottom: 50px;
+}
+.section-title__img {
+  display: block;
+  width: 840px;
+}
+.section-title__text {
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 60px;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 300;
+  line-height: 72px;
+}
+      /* section-footer */
+.section-footer {
+  margin-bottom: 20px;
+}
+.section-footer__line {
+  width: 100%;
+  height: 2px;
+  background-color: #ccc;
+  margin-bottom: 15px;
+}
+.section-footer__text {
+  font-size: 12px;
+  vertical-align: top;
+  color: #444;
+}
+.section-footer__text:nth-child(2) {
+  text-align: left;
+}
+.section-footer__text:nth-child(3) {
+  text-align: center;
+}
+.section-footer__text:last-child {
+  text-align: right;
+}
+.section-footer__text span {
+  display: block;
+  margin-bottom: 4px;
+}
+/* section-col-2 */
+.section-col-2 {
+  width: 50%;
 }
 
 /* hero */
@@ -118,11 +186,7 @@ img {
 .apartment-info__item {
   margin-bottom: 20px;
 }
-.apartment-info__prop {
-  font-size: 10px;
-}
-
-.apartment-info__value {
+.apartment-info__prop, .apartment-info__value {
   font-size: 10px;
 }
 
@@ -186,12 +250,15 @@ img {
 .company-info__address, .company-info__support {
   display: table-cell;
   vertical-align: top;
+  padding-right: 130px;
 }
 .company-info__address span, .company-info__support span {
   display: block;
   margin-bottom: 3px;
+  font-size: 12px;
 }
 .company-info__address span:first-child, .company-info__support span:first-child {
+  font-size: 14px;
   font-weight: 900;
   margin-bottom: 5px;
 }
@@ -199,32 +266,263 @@ img {
   margin-bottom: 230px;
 }
 
-      /* section-footer */
-.hero__section-footer {
+/* ansewr */
+      /* questions */
+.answer__questions {
+  margin-bottom: 20px;
 }
-.section-footer {
+.questions {
+  background-color: #e1f0f4;
+  padding: 40px 60px 0 60px;
 }
-.section-footer__line {
-  width: 100%;
-  height: 2px;
-  background-color: #ccc;
+.question {
+  display: table-row;
+  vertical-align: top;
+}
+.question__image {
+  margin-right: 50px;
+  display: table-cell
+}
+.question__text {
+  display: table-cell;
+  vertical-align: top;
+  width: 75%;
+  padding-bottom: 50px;
+  color: #001B34;
+}
+.question__title {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+.question__paragraph {
+  font-size: 10px;
+  line-height: 15px;
+}
+      /* cols */
+.answer__cols {
+  margin-bottom: 70px;
+}
+.cols__item {
+  display: table-cell;
+  vertical-align: top;
+}
+.cols__item:first-child {
+  padding-right: 70px;
+}
+.cols__title {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.cols__paragraph, .single-col__parapraph {
+  font-size: 10px;
+  line-height: 15px;
+}
+      /* single-col */
+.answer__single-col {
+  margin-bottom: 70px;
+}
+.single-col {
+  padding-left: 20px;
+}
+.single-col__title {
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+.single-col__subtitle {
+  font-size: 13px;
+  font-weight: 700;
+  display: block;
+  margin-bottom: 20px;
+}
+
+/* price */
+      /* description */
+.price__description {
+  margin-bottom: 30px;
+}
+.price-description {
+}
+.price-description__title {
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+.price-desctiption__text {
+  font-size: 12px;
+  line-height: 18px;
+}
+      /* conditions */
+.price__conditions {
+  margin-bottom: 30px;
+}
+.conditions {
+  background-color: #e1f0f4;
+  padding: 35px 40px 20px 55px;
+}
+.conditions__item {
+  display: table-row;
+  vertical-align: top;
+}
+.conditions__icon-wrapper {
+  display: table-cell;
+}
+.conditions__icon {
+  display: block;
+  margin-bottom: 1px;
+}
+.conditions__text {
+  display: table-cell;
+  vertical-align: top;
+  width: 83%;
+  padding-bottom: 25px;
+}
+.conditions__title {
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.conditions__paragraph {
+  font-size: 12px;
+}
+.conditions__list {
+  margin: 0 0 10px 30px;
+}
+      /* price-list */
+.price__price-list {
+  margin-bottom: 70px;
+}
+.price-list {
+  display: table-row;
+  font-weight: 300;
+}
+.price-list__text {
+  display: table-cell;
+  vertical-align: top;
+}
+.price-list__title {
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.price-list__paragraph {
+  font-size: 10px;
+  line-height: 16px;
   margin-bottom: 15px;
 }
-.section-footer__text {
-  font-size: 12px;
+.price-list__list-wrapper {
+  display: table-cell;
   vertical-align: top;
-  color: #444;
+  padding-left: 130px;
 }
-.section-footer__text:nth-child(2) {
+.price-list__list-title {
+  display: block;
+  margin-left: 55px;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.price-list__list {
+
+}
+.price-list__item {
+  display: table-row;
+}
+.price-list__icon {
+  display: table-cell;
+  vertical-align: middle;
+  width: 35px;
+  padding-bottom: 5px;
+}
+.price-list__price {
+  display: table-cell;
+  vertical-align: middle;
+  font-size: 12px;
+  padding-left: 20px;
+}
+.price__section-footer {
+  margin-top: 70px;
+}
+
+/* estate-info */
+      /* paragraph */
+.estate-info__paragraph {
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+}
+.estate-info__paragraph span {
+  display: inline-block;
+  margin-left: 50px;
+}
+      /* subtitle */
+.estate-info__subtitle {
+  font-weight: 700;
+  font-size: 15px;
+}
+      /* first-table */
+.estate-info__first-table {
+  font-size: 14px;
+  width: 200px;
+  margin-bottom: 15px;
+}
+      /* link */
+.estate-info__link {
+  position: relative;
+  width: 100%;
+  margin: 10px 0;
+}
+.estate-info__link .estate-info__subtitle, .estate-info__link a {
+  display: block;
+}
+.estate-info__link .estate-info__subtitle {
   text-align: left;
 }
-.section-footer__text:nth-child(3) {
+.estate-info__link a {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 11px;
+}
+      /* second-table */
+.estate-info__table-wrapper {
+  width: 80%;
+  background-color: #E8E7E3;
+  margin-top: 20px;
+  padding: 0 10px 10px 10px;
+}
+.estate-info__table-caption {
+  font-size: 14px;
+  font-weight: 300;
+  display: inline-block;
+  margin: 15px 0;
+}
+.estate-info__second-table {
+  position: relative;
+}
+.estate-info__second-table tr:first-child > td {
+  padding-bottom: 10px;
+}
+.estate-info__second-table td {
+  width: 28%;
   text-align: center;
+  font-size: 12px;
 }
-.section-footer__text:last-child {
-  text-align: right;
+.estate-info__second-table td:first-child {
+  text-align: left;
 }
-.section-footer__text span {
+.table-line {
+  width: 100%;
+  height: 2px;
+  background-color: #444;
+  transform: translateY(25px);
+}
+      /* subtitle */
+.estate-info__sub-subtitle {
   display: block;
-  margin-bottom: 4px;
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.estate-info__li {
+  font-size: 12px;
+}
+
+.price__section-footer {
+  margin-top: 270px;
 }

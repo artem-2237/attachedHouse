@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,8 +11,8 @@
 </head>
 <body>
   <main class="main">
-    <section class="hero">
 <!-- hero -->
+    <section class="hero">
       <!-- title -->
       <h1 class="hero__title">Tilstandsrapport</h1>
 
@@ -47,7 +47,7 @@
       </div>
 
       <!-- apartment-info -->
-      <div class="hero__apartment-info apartment-info">
+      <div class="hero__apartment-info apartment-info row">
         <div class="apartment-info__item col-4">
           <span class="apartment-info__prop bold-gray"><b>Befaringsdato:</b></span>
           <span class="apartment-info__value light-gray">11.01.2022</span>
@@ -90,7 +90,7 @@
       </div>
 
       <!-- company-info -->
-      <div class="hero__company-info company-info">
+      <div class="hero__company-info company-info row">
         <div class="company-info__text col-2-3">
           <h3 class="company-info__title">Byggcon Nord AS</h3>
           <p class="company-info__info">
@@ -102,16 +102,13 @@
           <p class="company-info__info">
             Se mer info på vår hjemmeside: www.byggcon.no
           </p>
-
           <img src="img/hero/logo.png" alt="BYGGCON" class="company-info__logo" width="150px">
-
           <div class="company-info__text-narrow">
             <span>Ståle Limstrand</span>
             <span>Uavhengig Takstmann</span>
             <span>13.01.2022 | BODØ</span>
           </div>
-
-          <div class="company-info__address-wrapper light-gray">
+          <div class="company-info__address-wrapper light-gray row">
             <div class="company-info__address col-2">
               <span>Byggcon Nord AS</span>
               <span>Dreyfushammarn 11</span>
@@ -134,18 +131,15 @@
       <!-- section-footer -->
       <div class="hero__section-footer section-footer row">
         <div class="section-footer__line"></div>
-
         <div class="section-footer__text col-3">
           <span>Oppdragsnr: 14553-1056</span>
           <span>Bodøsjøveien 23 , 8070 BODØ</span>
           <span>Gnr 37 - Bnr 31</span>
           <span>1804 BODØ</span>
         </div>
-
         <div class="section-footer__text col-3">
           <span>Befaringsdato: 11.01.2022</span>
         </div>
-
         <div class="section-footer__text col-3">
           <span>Side: 2 av 16</span>
           <span>Byggcon Nord AS</span>
@@ -154,6 +148,372 @@
         </div>
       </div>
 
+    </section>
+
+<!-- answer -->
+    <section class="answer">
+      <!-- section-title -->
+      <div class="answer__section-title section-title">
+        <img src="img/title-bg.png" alt="title bg" class="section-title__img">
+        <h2 class="section-title__text">Dette trenger du å vite om tilstandsrapporten</h2>
+      </div>
+
+      <!-- questions -->
+      <div class="answer__questions questions">
+        <div class="questions__question question">
+          <img src="img/answer/home.png" alt="home" class="question__image">
+          <div class="question__text">
+            <h4 class="question__title">Hva er en tilstandsrapport?</h4>
+            <p class="question__paragraph">
+              En tilstandsrapport beskriver synlige skader/avvik eller tegn på skader/avvik på boligen. Rapporten fremhever vanligvis ikke positive egenskaper ved boligen.
+            </p>
+          </div>
+        </div>
+        <div class="questions__question question">
+          <img src="img/answer/search-women.png" alt="search women" class="question__image">
+          <div class="question__text">
+            <h4 class="question__title">Hva vurderer en bygningssakkyndig?</h4>
+            <p class="question__paragraph">
+              Den bygningssakkyndige vurderer boligen ut fra hva man kan forvente av en bygning av samme alder og type. Vurderingen gjøres som regel mot hvordan det var vanlig å bygge og regler som gjaldt da boligen ble oppført (søknadstidspunktet). Forhold som er vanlige for bygningens alder, slik som slitasje etter normal bruk regnes ikke som avvik.
+            </p>
+          </div>
+        </div>
+        <div class="questions__question question">
+          <img src="img/answer/guitar.png" alt="guitar" class="question__image">
+          <div class="question__text">
+            <h4 class="question__title">Hva inneholder tilstandsrapporten?</h4>
+            <p class="question__paragraph">
+              Den bygningssakkyndige undersøker rom og bygningsdeler slik det kommer frem av <a href="#">Forskrift til avhendingsloven.</a> Tilstandsrapporten inneholder bare avvik som den bygningssakkyndige kan se eller kontrollere med enkle hjelpemidler. Det gjøres ikke nærmere undersøkelser slik som åpning av vegger eller andre bygningsdeler. I vegg mot våtrom og rom under terreng kan det borres et hull for å gjøre enkle undersøkelser slik som fuktsøk.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- cols -->
+      <div class="answer__cols cols row">
+        <div class="cols__item col-2">
+          <h4 class="cols__title">Når du kjøper en brukt bolig</h4>
+          <p class="cols__paragraph">
+            Når du kjøper en brukt bolig, er det viktig å være oppmerksom på at dette ikke kan sammenlignes med å kjøpe en ny bolig. Måten boligen ble bygget på kan være annerledes enn i dag. Bygninger svekkes over tid, og utsettes for slitasje blant annet på grunn av bruk og vær og vind. Mange boliger fornyes helt eller delvis, noen i flere omganger, eller det oppføres tilbygg. Særlig for boliger som er pusset opp eller endret, er det viktig å merke seg at fornyelse av overflater ikke nødvendigvis betyr at bygningsdeler under er forbedret.
+          </p>
+        </div>
+        <div class="cols__item col-2">
+          <h4 class="cols__title">Vurdering mot byggeår</h4>
+          <p class="cols__paragraph">
+            Den bygningssakkyndige vil vurdere boligen mot hvordan det var vanlig å bygge og regler som gjaldt da bygningen ble oppført (søknadstidspunktet). Den bygningssakkyndige ser etter avvik som har betydning for og som reduserer boligens funksjon og verdi, og som kommer frem av Forskrift til avhendingslova. Noen rom og bygningsdeler slik som bad og vaskerom, og forhold som gjelder sikkerhet mot brann, rekkverk og trapper osv., vil den bygningssakkyndige vurdere mot dagens regelverk. Etter dagens regelverk vil disse kunne få en tilstandsgrad 2 eller 3 uten at det nødvendigvis er krav om at avviket må utbedres.
+          </p>
+        </div>
+      </div>
+
+      <!-- single-col -->
+      <div class="answer__single-col single-col">
+        <h4 class="single-col__title">Tilstandsrapporten beskriver ikke hele boligen</h4>
+        <span class="single-col__subtitle">
+          BYGNINGSSAKKYNDIGE SER FOR EKSEMPEL IKKE PÅ (MED MINDRE BYGNINGSDELEN ER NEVNT I RAPPORTEN)
+        </span>
+        <ul class="single-col__parapraph">
+          <li class="horizontal-li">vanlig slitasje og normal vedlikeholdstilstand</li>
+          <li class="horizontal-li">bagatellmessige forhold som ikke påvirker bygningens bruk eller verdi vesentlig</li>
+          <li class="horizontal-li">etasjeskillere</li>
+          <li class="horizontal-li">tilleggsbygg slik som garasje, bod, anneks, naust også videre</li>
+          <li class="horizontal-li">utvendige trapper</li>
+          <li class="horizontal-li">støttemurer</li>
+          <li class="horizontal-li">skjulte installasjoner</li>
+          <li class="horizontal-li">installasjoner utenfor bygningen</li>
+          <li class="horizontal-li">full funksjonstesting av el- og VVS-installasjoner</li>
+          <li class="horizontal-li">geologiske forhold og bygningens plassering på grunnen</li>
+          <li class="horizontal-li">bygningens planløsning</li>
+          <li class="horizontal-li">bygningens innredning</li>
+          <li class="horizontal-li">løsere slik som hvitevarer</li>
+          <li class="horizontal-li">utendørs svømmebasseng og pumpeanlegg</li>
+          <li class="horizontal-li">bygningens estetikk og arkitektur</li>
+          <li class="horizontal-li">bygningens lovlighet (bortsett fra bruksendringer, brannceller og forhold som åpenbart kan påvirke helse, miljø og sikkerhet)</li>
+          <li class="horizontal-li">fellesarealer (med mindre boligeier har vedlikeholdsplikt for fellesarealer og dette er kjent for bygningssakkyndig, eller fellesarealet har en særlig tilknytning til boligen).</li>
+        </ul>
+      </div>
+
+      <!-- section-footer -->
+      <div class="answer__section-footer section-footer row">
+        <div class="section-footer__line"></div>
+        <div class="section-footer__text col-3">
+          <span>Oppdragsnr: 14553-1056</span>
+          <span>Bodøsjøveien 23 , 8070 BODØ</span>
+          <span>Gnr 37 - Bnr 31</span>
+          <span>1804 BODØ</span>
+        </div>
+        <div class="section-footer__text col-3">
+          <span>Befaringsdato: 11.01.2022</span>
+        </div>
+        <div class="section-footer__text col-3">
+          <span>Side: 2 av 16</span>
+          <span>Byggcon Nord AS</span>
+          <span>Dreyfushammarn 11</span>
+          <span>8012 BODØ</span>
+        </div>
+      </div>
+    </section>
+    
+<!-- price -->
+    <section class="price">
+      <!-- section-title -->
+      <div class="price__section-title section-title">
+        <img src="img/title-bg.png" alt="title bg" class="section-title__img">
+        <h2 class="section-title__text">Dette trenger du å vite om tilstandsrapporten</h2>
+      </div>
+
+      <!-- description -->
+      <div class="price__description price-description">
+        <h4 class="price-description__title">Tilstanden vurderes med ulike tilstandsgrader</h4>
+        <p class="price-desctiption__text">
+          Tilstanden gir uttrykk for en gitt forventet tilstand, blant annet vurdert ut fra alder og normal bruk. Ved Tilstandsgrad 0 (TG0) og Tilstandsgrad 1 (TG1) gir den bygningssakkyndige normalt ingen begrunnelse for valg av tilstandsgrad. Grunnen er at bygningen eller bygningsdelen da bare har normal slitasje. Ved skjulte konstruksjoner kan alder alene avgjøre tilstandsgrad. Når bygningssakkyndige anbefaler tiltak, for eksempel utbedringer, må brukeren av rapporten vurdere om tiltakene er nødvendige og lønnsomme. Når den bygningssakkyndige velger tilstandsgrad, baseres vurderingen på faste kriterier som følger av gjeldende bransjestandard for Teknisk tilstandsanalyse ved omsetning av bolig og Forskrift til avhendingslova.
+        </p>
+      </div>
+
+      <!-- conditions -->
+      <div class="price__conditions conditions">
+        <div class="conditions__item">
+          <div class="conditions__icon-wrapper">
+            <img src="img/price/tg-0.png" alt="TG 0" class="conditions__icon">
+          </div>
+          <div class="conditions__text">
+            <h4 class="conditions__title">TILSTANDSGRAD 0, TG0: INGEN AVVIK</h4>
+            <p class="conditions__paragraph">
+              I tillegg må bygningsdelen være tilnærmet ny, mindre enn 5 år. Det må også foreligge dokumentasjon på faglig god utførelse.
+            </p>
+          </div>
+        </div>
+
+        <div class="conditions__item">
+          <div class="conditions__icon-wrapper">
+            <img src="img/price/tg-1.png" alt="TG 0" class="conditions__icon">
+          </div>
+          <div class="conditions__text">
+            <h4 class="conditions__title">TILSTANDSGRAD 1, TG1: MINDRE AVVIK</h4>
+            <p class="conditions__paragraph">
+              Normal slitasje. Strakstiltak er ikke nødvendig. TG1 kan gis når bygningsdelen er tilnærmet ny, og det ikke foreligger dokumentasjon på faglig god utførelse.
+            </p>
+          </div>
+        </div>
+
+        <div class="conditions__item">
+          <div class="conditions__icon-wrapper">
+            <img src="img/price/tg-2-light.png" alt="TG 0" class="conditions__icon">
+            <img src="img/price/tg-2.png" alt="TG 0" class="conditions__icon">
+          </div>
+          <div class="conditions__text">
+            <h4 class="conditions__title">TILSTANDSGRAD 2, TG2: VESENTLIGE AVVIK OG MINDRE AVVIK SOM ETTER NS 3600 GIR TG 2</h4>
+            <ul class="conditions__list">
+              <li class="conditions__paragraph">Tilstandsgrad 2, TG2: Avvik som ikke krever umiddelbare tiltak</li>
+              <li class="conditions__paragraph">Tilstandsgrad 2, TG2: Avvik som kan kreve tiltak</li>
+            </ul>
+            <p class="conditions__paragraph">
+              I denne rapporten kan TG2 i Rapportsammendrag være inndelt i tilstander som krever tiltak, og tilstander som ikke krever umiddelbare tiltak. TG2 betyr at konstruksjonen enten har feil utførelse, en skade eller tegn på skade, sterk slitasje eller nedsatt funksjon. Vedlikehold eller tiltak trengs i nær fremtid. Det er grunn til å varsle fare for skader på grunn av alder, eller overvåke bygningsdelen spesielt på grunn av fare for større skade eller følgeskade.
+            </p>
+          </div>
+        </div>
+
+        <div class="conditions__item">
+          <div class="conditions__icon-wrapper">
+            <img src="img/price/tg-3.png" alt="TG 0" class="conditions__icon">
+          </div>
+          <div class="conditions__text">
+            <h4 class="conditions__title">TILSTANDSGRAD 3, TG3: STORE ELLER ALVORLIGE AVVIK</h4>
+            <p class="conditions__paragraph">
+              Denne tilstandsgraden brukes ved kraftige tegn på forhold som man må regne med trenger utbedring straks eller innen kort tid. Det er påvist funksjonssvikt eller sammenbrudd.
+            </p>
+          </div>
+        </div>
+
+        <div class="conditions__item">
+          <div class="conditions__icon-wrapper">
+            <img src="img/price/tg-iu.png" alt="TG 0" class="conditions__icon">
+          </div>
+          <div class="conditions__text">
+            <h4 class="conditions__title">IKKE UNDERSØKT/IKKE TILGJENGELIG FOR UNDERSØKELSE</h4>
+            <p class="conditions__paragraph">
+              Det kan være avvik/skader som ikke er avdekket.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- price-list -->
+      <div class="price__price-list price-list row">
+        <div class="price-list__text col-2">
+          <h4 class="price-list__title">Hva er et anslag på utbedringskostnad?</h4>
+          <p class="price-list__paragraph">
+            Hva det vil koste å utbedre rom eller bygningsdeler, er et forsiktig anslag basert på nåværende kvalitet, registrert avvik og angitte tiltak i rapporten. Anslaget er gitt på generelt grunnlag og må ikke forveksles med et pristilbud fra en håndverker. Det kan foreligge avvik og tiltak som ikke kommer frem av rapporten. Utbedringskostnad avhenger blant annet av personlige valg av og markedspris på materialer og tjenesteyter.
+          </p>
+          <p class="price-list__paragraph">
+            I rapporten skal det settes anslag for utbedringskostnad for TG3, og slikt anslag kan også gis ved TG2.
+          </p>
+        </div>
+        <div class="price-list__list-wrapper col-2">
+          <span class="price-list__list-title">Ingen umiddelbare kostnader</span>
+          <div class="price-list__list">
+            <div class="price-list__item">
+              <img src="img/price/1k.png" alt="$" class="price-list__icon">
+              <span class="price-list__price">Tiltak under kr. 10 000</span>
+            </div>
+            <div class="price-list__item">
+              <img src="img/price/10k.png" alt="$" class="price-list__icon">
+              <span class="price-list__price">Tiltak mellom kr. 10 000 - 50 000</span>
+            </div>
+            <div class="price-list__item">
+              <img src="img/price/50k.png" alt="$" class="price-list__icon">
+              <span class="price-list__price">Tiltak mellom kr. 50 000 - 100 000</span>
+            </div>
+            <div class="price-list__item">
+              <img src="img/price/100k.png" alt="$" class="price-list__icon">
+              <span class="price-list__price">Tiltak mellom kr. 100 000 - 300 000</span>
+            </div>
+            <div class="price-list__item">
+              <img src="img/price/300k.png" alt="$" class="price-list__icon">
+              <span class="price-list__price">Tiltak over kr. 300 000</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- section-footer -->
+      <div class="price__section-footer section-footer row">
+        <div class="section-footer__line"></div>
+        <div class="section-footer__text col-3">
+          <span>Oppdragsnr: 14553-1056</span>
+          <span>Bodøsjøveien 23 , 8070 BODØ</span>
+          <span>Gnr 37 - Bnr 31</span>
+          <span>1804 BODØ</span>
+        </div>
+        <div class="section-footer__text col-3">
+          <span>Befaringsdato: 11.01.2022</span>
+        </div>
+        <div class="section-footer__text col-3">
+          <span>Side: 2 av 16</span>
+          <span>Byggcon Nord AS</span>
+          <span>Dreyfushammarn 11</span>
+          <span>8012 BODØ</span>
+        </div>
+      </div>
+    </section>
+
+<!-- estate-info -->
+    <section class="estate-info">
+      <!-- section-title -->
+      <div class="section-col-2">
+        <div class="estate__section-title section-title">
+          <img src="img/title-bg.png" alt="title bg" class="section-title__img">
+          <h2 class="section-title__text">Beskrivelse av eiendommen</h2>
+        </div>
+  
+        <p class="estate-info__paragraph">
+          Denne rapporten har ikke tatt mål av seg til å kommentere kosmetiske feil eller mangler. Ingen spesielle feil og mangler registrert med tanke på byggeår/brukertid. Enkelte bruksmerker, dog av liten art/betydning/kosmetisk. Det ble utført fuktsøk på bad, ingen anmerkninger.
+        </p>
+  
+        <h4 class="estate-info__subtitle">Markedsvurdering</h4>
+        <table class="estate-info__first-table">
+          <tr>
+            <td>Bruksareal</td>
+            <td>67 m<sup>2</sup></td>
+          </tr>
+          <tr>
+            <td>Totalpris</td>
+            <td>3 400 000</td>
+          </tr>
+        </table>
+        <div class="estate-info__link">
+          <h4 class="estate-info__subtitle">Arealer</h4>
+          <a href="#">Gå til side</a>
+        </div>
+        <h4 class="estate-info__subtitle">Oversikt over totalt bruksareal (BRA).</h4>
+        <div class="estate-info__table-wrapper">
+          <span class="estate-info__table-caption">Leilighet</span>
+          <div class="table-line"></div>
+          <table class="estate-info__second-table">
+            <tr>
+              <td>ETASJE</td>
+              <td>TOTALT</td>
+              <td>P-ROM</td>
+              <td>S-ROM</td>
+            </tr>
+            <tr>
+              <td>2. Etasje</td>
+              <td>61</td>
+              <td>61</td>
+              <td>0</td>
+            </tr>
+            <tr>
+              <td>Sum</td>
+              <td>61</td>
+              <td>61</td>
+              <td>0</td>
+            </tr>
+          </table>
+          <span class="estate-info__table-caption">Garasje og bod</span>
+          <div class="table-line"></div>
+          <table class="estate-info__second-table">
+            <tr>
+              <td>ETASJE</td>
+              <td>TOTALT</td>
+              <td>P-ROM</td>
+              <td>S-ROM</td>
+            </tr>
+            <tr>
+              <td>Underetasje</td>
+              <td>6</td>
+              <td>0</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td>Sum</td>
+              <td>6</td>
+              <td>0</td>
+              <td>6</td>
+            </tr>
+          </table>
+        </div>
+        <div class="estate-info__link">
+          <h4 class="estate-info__subtitle">Befaring - og eiendomsopplysninger</h4>
+          <a href="#">Gå til side</a>
+        </div>
+        <p class="estate-info__paragraph">Tomteverdi og teknisk verdi bygninger<span>3 400 000</span></p>
+        <div class="estate-info__link">
+          <h4 class="estate-info__subtitle">Forutsetninger og vedlegg</h4>
+          <a href="#">Gå til side</a>
+        </div>
+        <div class="estate-info__link">
+          <h4 class="estate-info__subtitle">Lovlighet</h4>
+          <a href="#">Gå til side</a>
+        </div>
+        <span class="estate-info__sub-subtitle">Leilighet</span>
+        <li class="estate-info__li">
+          Det foreligger godkjente og byggemeldte tegninger, som stemmer med dagens bruk
+        </li>
+        <span class="estate-info__sub-subtitle">Garasje og bod</span>
+        <li class="estate-info__li">
+          Det foreligger godkjente og byggemeldte tegninger, som stemmer med dagens bruk
+        </li>
+      </div>
+
+      <!-- section-footer -->
+      <div class="price__section-footer section-footer row">
+        <div class="section-footer__line"></div>
+        <div class="section-footer__text col-3">
+          <span>Oppdragsnr: 14553-1056</span>
+          <span>Bodøsjøveien 23 , 8070 BODØ</span>
+          <span>Gnr 37 - Bnr 31</span>
+          <span>1804 BODØ</span>
+        </div>
+        <div class="section-footer__text col-3">
+          <span>Befaringsdato: 11.01.2022</span>
+        </div>
+        <div class="section-footer__text col-3">
+          <span>Side: 2 av 16</span>
+          <span>Byggcon Nord AS</span>
+          <span>Dreyfushammarn 11</span>
+          <span>8012 BODØ</span>
+        </div>
+      </div>
+    </section>
     </section>
   </main>
 </body>
