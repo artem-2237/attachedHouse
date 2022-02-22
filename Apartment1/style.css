@@ -34,6 +34,15 @@ img {
   color: #7f7f7f;
   font-size: 14px;
 }
+.bold {
+  font-weight: 700;
+}
+.mb-0 {
+  margin-bottom: 0 !important;
+}
+.mt-0 {
+  margin-top: 0 !important;
+}
 .row {
   font-size: 0px !important;
 }
@@ -95,9 +104,34 @@ img {
   font-weight: 300;
   line-height: 72px;
 }
+      /* section-header */
+.section-header {
+  margin-bottom: 20px;
+}
+.section-header__line {
+  width: 100%;
+  height: 2px;
+  background-color: #ccc;
+  margin-bottom: 10px;
+}
+.section-header__text {
+  font-size: 12px;
+  vertical-align: top;
+  color: #444;
+}
+.section-header__text:first-child {
+  text-align: left;
+}
+.section-header__text:last-child {
+  text-align: right;
+}
+.section-header__text span {
+  display: block;
+  margin-bottom: 4px;
+}
       /* section-footer */
 .section-footer {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .section-footer__line {
   width: 100%;
@@ -125,7 +159,10 @@ img {
 }
 /* section-col-2 */
 .section-col-2 {
+  display: table-cell;
+  vertical-align: top;
   width: 50%;
+  font-size: 14px;
 }
 
 /* hero */
@@ -525,4 +562,266 @@ img {
 
 .price__section-footer {
   margin-top: 270px;
+}
+
+/* home-condition */
+.home-condition__subtitle {
+  margin-bottom: 8px;
+}
+.home-condition__diagram {
+  margin-bottom: 20px;
+}
+.home-condition__diagram-list {
+  margin: 0 0 30px 60px;
+}
+.diagram-list {
+  list-style-type: none;
+}
+.diagram-list__item {
+  position: relative;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+.diagram-list__item::before {
+  content: "";
+  display: block;
+  position: absolute;
+  left: -35px;
+  width: 14px;
+  height: 14px;
+  background-color: #ccc;
+}
+.diagram-list__item:nth-child(1):before {
+  background-color: #4aa25a;
+}
+.diagram-list__item:nth-child(2):before {
+  background-color: #8ec63f;
+}
+.diagram-list__item:nth-child(3):before {
+  background-color: #ffdb6e;
+}
+.diagram-list__item:nth-child(4):before {
+  background-color: #eeb258;
+}
+.diagram-list__item:nth-child(5):before {
+  background-color: #e3394a;
+}
+.home-condition__diagram-description {
+  display: block;
+  font-size: 9px;
+  line-height: 14px;
+  margin-bottom: 120px;
+}
+.home-condition__paragraph {
+  font-size: 13px;
+  line-height: 16px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+.home-condition__text-bg-blue {
+  display: block;
+  background-color: #d3ecf1;
+  font-size: 14px;
+  padding: 2px 3px;
+  font-weight: 600;
+  margin-bottom: 300px;
+}
+
+/* condition-report */
+.condition-report__left {
+  padding-right: 30px;
+}
+.condition-report__right {
+  padding-left: 30px;
+}
+.condition-report__condition-item {
+  margin-bottom: 40px;
+}
+.condition-item {
+  width: 100%;
+  padding-bottom: 30px;
+}
+.condition-item__title {
+  background-color: #e1f0f4;
+  padding: 5px;
+  color: #10636f;
+}
+.condition-item__subtitle {
+  display: block;
+  margin-top: 20px;
+  font-weight: 700;
+  font-size: 13px;
+}
+span.condition-item__subtitle {
+}
+div.condition-item__subtitle {
+  position: relative;
+  margin: 50px 0 15px 0;
+}
+div.first {
+  margin-top: 20px;
+}
+.condition-item__subtitle img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 47px;
+}
+.condition-item__text {
+  font-size: 11px;
+  line-height: 16px;
+  display: block;
+}
+span.condition-item__text {
+
+}
+p.condition-item__text {
+  margin-bottom: 20px;
+}
+.condition-item__img {
+  display: block;
+  width: 85%;
+  margin: auto;
+}
+.condition-item__title-h3-like {
+  background-color: #e1f0f4;
+  padding: 5px;
+  color: #10636f;
+  font-size: 14px;
+  margin: 5px 0 0 5px;
+}
+.condition-item__list {
+  font-size: 11px;
+  margin-left: 15px;
+  line-height: 16px;
+  margin-bottom: 40px;
+}
+.condition-item__list li {
+  margin-bottom: 10px;
+  padding-left: 15px;
+}
+
+/* market-assessment */
+.market-assessment__row1 {
+  display: table-row;
+}
+.col {
+  display: table-cell;
+  vertical-align: top;
+  margin-bottom: 10px;
+  color: #10636f;
+  position: relative;
+}
+.col:nth-child(odd) {}
+.col__title {
+  background-color: #A4E4E9;
+  margin-right: 10px;
+  padding: 0 0 10px 0;
+  height: 75px;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 30;
+}
+.col__content {
+  background-color: #D1F1F4;
+  margin-right: 10px;
+  padding: 10px 10px 5px 10px;
+  height: 100%;
+}
+.col__content .col__title {
+  background-color: transparent;
+  padding: 0;
+  margin: 0 0 10px 0;
+}
+.col__paragraph {
+  font-size: 14px;
+  line-height: 22px;
+}
+.col__description {
+  display: block;
+  font-style: italic;
+  font-size: 12px;
+  color: #14959B;
+  text-align: right;
+  margin-top: 50px;
+}
+.market-assessment__row2 {
+  display: table-row;
+}
+.market-assessment__row2 .col {
+  height: 212px;
+}
+.col-f-sm {
+  font-size: 15px;
+  font-weight: 700;
+}
+.col-row > div:last-child {
+  text-align: right;
+}
+.col-row:last-child {
+  position: absolute;
+  width: 95%;
+  bottom: 5px;
+  right: 15px;
+}
+.col-border-top-bot {
+  display: inline-block;
+  border-top: 2px solid #10636f;
+  border-bottom: 2px solid #10636f;
+  padding-left: 60px;
+  margin-left: 10px;
+  line-height: 18px;
+}
+.market-assessment__subtitle {
+  margin: 40px 0 5px 0;
+  font-size: 14px;
+}
+.market-assessment__paragraph {
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 20px;
+  color: #444;
+}
+.market-assessment__table-caption {
+  font-size: 16px;
+  font-weight: 300;
+  color: #10636f;
+  background-color: #D1F1F4;
+  padding: 3px 5px;
+  margin-bottom: 20px;
+}
+.market-assessment__table {
+  width: 100%;
+  position: relative;
+  font-size: 12px;
+}
+.market-assessment__table td {
+  text-align: center;
+}
+.market-assessment__table th {
+  text-align: center;
+  padding-left: 6px;
+}
+.market-assessment__table th:first-child {
+  text-align: left;
+}
+.market-assessment__table td:first-child{
+  width: 3%;
+  text-align: left;
+}
+.market-assessment__table td:nth-child(4){
+  vertical-align: bottom;
+  padding-bottom: 2px;
+}
+.market-assessment__table td:nth-child(3){
+  transform: translateX(-22px);
+}
+.market-assessment__table td:nth-child(10), .market-assessment__table td:nth-child(9), .market-assessment__table td:nth-child(8){
+  text-align: right;
+}
+.market-assessment__section-footer {
+  margin-top: 250px;
+}
+.market-assessment__section-footer:last-child {
+  margin-top: 650px;
 }
