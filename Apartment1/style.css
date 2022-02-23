@@ -486,6 +486,9 @@ img {
 }
 
 /* estate-info */
+.estate-info .section-col-2, .home-condition .section-col-2 {
+  display: block;
+}
       /* paragraph */
 .estate-info__paragraph {
   font-size: 14px;
@@ -524,6 +527,9 @@ img {
   right: 0;
   top: 0;
   font-size: 11px;
+}
+.estate-info__section-footer {
+  margin-top: 270px;
 }
       /* second-table */
 .estate-info__table-wrapper {
@@ -881,13 +887,16 @@ p.condition-item__text {
 .area__section-footer {
   margin-top: 180px;
 }
-
+/* inspection */
 .inspection__table {
   font-size: 14px;
   width: 100%;
   margin: 10px 0 20px 0;
   line-height: 16px;
   font-weight: 300;
+}
+.w-250 {
+  width: 250px;
 }
 .inspection__table th {
   text-align: left;
@@ -953,4 +962,37 @@ p.condition-item__text {
 }
 .sources__table th, .sources__table td {
   padding-bottom: 10px;
+}
+
+/* last */
+.last__left {
+  padding-right: 60px;
+  vertical-align: top;
+}
+.last__mid {
+  padding: 0 30px;
+  vertical-align: top;
+}
+.last__right {
+  vertical-align: top;
+  padding-left: 60px;
+}
+.last__title {
+  font-size: 12px;
+  font-weight: 300;
+  color: #42566b;
+  margin: 40px 0 50px 0;
+}
+.last__subtitle {
+  font-size: 12px;
+  color: #42566b;
+  margin-bottom: 15px;
+}
+.last__paragraph {
+  display: block;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+.last__paragraph-bot {
+  margin-bottom: 5px;
 }
