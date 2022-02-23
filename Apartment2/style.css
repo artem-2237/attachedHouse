@@ -1,3 +1,4 @@
+/* Apartment 2 */
 html {
   box-sizing: border-box;
 }
@@ -212,6 +213,7 @@ img {
       /* area-info */
 .hero__area-info {
   margin-bottom: 15px;
+  padding-top: 70px;
 }
 .area-info {
   text-align: right;
@@ -494,7 +496,7 @@ img {
   font-size: 14px;
   line-height: 20px;
   font-weight: 300;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
 }
 .estate-info__paragraph span {
   display: inline-block;
@@ -530,7 +532,7 @@ img {
   font-size: 11px;
 }
 .estate-info__section-footer {
-  margin-top: 270px;
+  margin-top: 550px;
 }
       /* second-table */
 .estate-info__table-wrapper {
@@ -996,3 +998,5 @@ p.condition-item__text {
 .last__paragraph-bot {
   margin-bottom: 5px;
 }
+/* Apartmanet 2 */
+
