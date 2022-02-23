@@ -662,7 +662,7 @@ img {
   font-size: 11px;
 }
 .estate-info__section-footer {
-  margin-top: 40px;
+  margin-top: 140px;
 }
       /* second-table */
 .estate-info__table-wrapper {
@@ -761,7 +761,7 @@ span.estate-info__sub-subtitle {
   display: block;
   font-size: 9px;
   line-height: 14px;
-  margin-bottom: 120px;
+  margin-bottom: 40px;
 }
 .home-condition__paragraph {
   font-size: 13px;
@@ -775,12 +775,86 @@ span.estate-info__sub-subtitle {
   font-size: 14px;
   padding: 2px 3px;
   font-weight: 600;
-  margin-bottom: 300px;
+  margin-bottom: 20px;
+}
+.home-condition__left {
+  vertical-align: top;
+  padding-right: 40px;
+}
+.home-condition__right {
+  padding-left: 40px;
+}
+.home-condition__price-list span {
+  font-size: 10px !important;
+}
+.home-condition__price-list img {
+  width: 16px
+}
+.home-condition__sub-sext {
+  margin-bottom: 10px;
+  padding-left: 10px;
+}
+.sub-text__icons {
+  position: relative;
+  display: table-cell;
+  width: 10%;
+}
+.sub-text__icons img {
+  width: 16px;
+  display: block;
+}
+.sub-text__icons img:last-child {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+}
+.sub-text__text {
+  vertical-align: top;
+  display: table-cell;
+  width: 87%;
+  font-size: 12px;
+  line-height: 16px;
+}
+.sub-text__text > span {
+  display: block;
+  margin-bottom: 10px;
+  position: relative;
+}
+.sub-text__text > span:last-child {
+  margin-bottom: 0;
+}
+.sub-text__text > span > a {
+  font-size: 10px;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.home-condition__text-bg-gray {
+  background-color: #E0E0E0;
+  height: 26px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.home-condition__text-bg-gray img {
+  display: inline-block;
+  width: 18%;
+}
+.home-condition__text-bg-gray h4 {
+  width: 80%;
+  display: inline-block;
+  font-weight: 300;
+  font-size: 13px;
+  transform: translateY(-9px);
+}
+.gray-line {
+  height: 1px;
+  width: 100%;
+  background-color: #ccc;
 }
 
 /* condition-report */
 .condition-report__section-footer_last {
-  margin-top: 450px;
+  margin-top: 810px;
 }
 .condition-report__left {
   padding-right: 30px;
@@ -851,6 +925,9 @@ p.condition-item__text {
 .condition-item__list li {
   margin-bottom: 10px;
   padding-left: 15px;
+}
+.condition-report__right {
+  vertical-align: top;
 }
 
 /* market-assessment */
@@ -971,13 +1048,15 @@ p.condition-item__text {
   text-align: right;
 }
 .market-assessment__section-footer {
-  margin-top: 250px;
-}
-.market-assessment__section-footer:last-child {
-  margin-top: 650px;
+  margin-top: 10px;
 }
 
 /* calculations */
+.calculation__subtitle {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
 .calculations__table, .area__table {
   font-size: 12px;
   width: 100%;
@@ -1033,6 +1112,8 @@ p.condition-item__text {
   line-height: 16px;
   margin-bottom: 15px;
 }
+.construction__row {
+}
 .construction-left {
   padding-right: 40px;
   vertical-align: top;
@@ -1063,7 +1144,7 @@ p.condition-item__text {
 }
 .area__simple-text {
   font-size: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 5px;
 }
 .area__check-table {
   font-size: 12px;
@@ -1077,7 +1158,7 @@ p.condition-item__text {
   transform: translateY(4px);
 }
 .area__section-footer {
-  margin-top: 430px;
+  margin-top: 530px;
 }
 /* inspection */
 .inspection__table {
@@ -1099,7 +1180,6 @@ p.condition-item__text {
 .inspection__sectio-sub-subtitle {
   display: inline-block;
   font-size: 14px;
-  margin-top: 15px;
 }
 .inspection__section-paragraph {
   font-size: 12px;
@@ -1110,10 +1190,10 @@ p.condition-item__text {
 .inspection__simple-text {
   font-size: 12px;
   color: #444;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 .inspection__section-footer {
-  margin-top: 0px;
+  margin-top: 300px;
 }
 
 /* buildings */
